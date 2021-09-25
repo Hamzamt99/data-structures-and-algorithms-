@@ -284,7 +284,7 @@ describe('Testing challenge 8', () => {
 
   test('It should return the string "N/A" if a non-number is included in the array', () => {
     expect(evenOdd([5, 8, 2, 'hi'])).toStrictEqual(['odd', 'even', 'even', 'N/A']);
-    expect(evenOdd([5, 8, 2, 'hi']).length).toStrictEqual(4);
+    expect(evenOdd([5, 8, 2, 'hgit checkout -b filteri']).length).toStrictEqual(4);
   });
 });
 
